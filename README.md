@@ -1,8 +1,8 @@
-# Finger_Counter_OpenCV_Python
-Python Parmak Sayıcı Görüntü İşleme Yazılımı
+# Finger Counter with OpenCV Python
+Finger Counter Implementation with OpenCV
 
-Görüntü işleme uygulamalarının en önemlilerinden biri de parmak sayıcı projesidir. Python-OpenCV kullanarak geliştirdiğim yazılım, gerçek zamanlı (real time) kameradaki el görüntüsünü kontur araçları sayesinde algılayabilmekte ve analiz edebilmektedir. El parmaklarının renk, konum ve oryantason bilgisinden parmak sayısını çıkarabilen algoritmamız, 0'dan 5'e kadar integer çıktı vermektedir. Bu çıktı, farklı parmak sayısına karşı farklı bir komutun çalıştırılması açısından önem kazanmaktadır.
+One of the most important image processing applications is the finger counter project. The software I developed using Python-OpenCV can detect and analyze the hand image in real time camera thanks to its contour tools. Our algorithm, which can extract the number of fingers from the color, position and orientation information of the fingers, gives integer output from 0 to 5. This output becomes important in terms of running a different command against a different number of fingers.
 
 ![resim](https://github.com/mehmet-engineer/Finger_Counter_OpenCV_Python/blob/main/Gesture_Hand.jpg)
 
-Medya -> https://drive.google.com/drive/u/0/folders/1b6mBFnFQBsBS1XDOJOM_xB4JQ-wrBMqK
+Media -> https://drive.google.com/drive/u/0/folders/1b6mBFnFQBsBS1XDOJOM_xB4JQ-wrBMqK
